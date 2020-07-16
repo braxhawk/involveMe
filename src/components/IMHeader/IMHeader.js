@@ -14,11 +14,11 @@ const IMHeader = () => (
     <HeaderName element={Link} to="/" prefix="IBMernauts">
       involveMe
     </HeaderName>
-    <HeaderNavigation aria-label="involveMe">
+    {/* <HeaderNavigation aria-label="involveMe">
       <HeaderMenuItem element={Link} to="/infos">
         More Info
       </HeaderMenuItem>
-    </HeaderNavigation>
+    </HeaderNavigation> */}
     <HeaderGlobalBar />
   </Header>
 );
