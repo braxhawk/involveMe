@@ -6,8 +6,9 @@
 }
 
 .landing-page__banner {
-  padding-top: $spacing-05;
-  padding-bottom: $spacing-07 * 4;
+  padding-top: $spacing-06;
+  padding-bottom: $spacing-06;
+  text-align: center;
   @include landing-page-background;
 }
 
@@ -20,7 +21,7 @@
 }
 
 .landing-page__tab-content {
-  padding-top: $layout-05;
+  padding-top: $layout-03;
   padding-bottom: $layout-05;
 }
 
@@ -32,7 +33,7 @@
 .landing-page__p {
   @include carbon--type-style("productive-heading-03");
   margin-top: $spacing-06;
-  margin-bottom: $spacing-08;
+  margin-bottom: $spacing-06;
 
   @include carbon--breakpoint-between((320px + 1), md) {
     max-width: 75%;
