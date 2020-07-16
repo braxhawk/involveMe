@@ -50,7 +50,9 @@ const LandingPage = () => {
                       the bottom-right to start learning about your
                       congressional leaders -->
                     </p>
-                    <Button>Learn more</Button>
+                    <Button href="https://www.ibm.org/responsibility/2019/case-studies/embrace">
+                      Learn more
+                    </Button>
                   </div>
                   <div className="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8"></div>
                 </div>
@@ -107,7 +109,6 @@ const LandingPage = () => {
                       legislators in order to make it extremely simple of
                       everyone to get involved.
                     </p>
-                    <Button>Learn more</Button>
                   </div>
                   <div className="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8"></div>
                 </div>
