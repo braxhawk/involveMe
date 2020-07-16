@@ -1,6 +1,5 @@
 import React from "react";
 import { Button, Tabs, Tab } from "carbon-components-react";
-import { useEffect } from "react";
 
 const props = {
   tabs: {
@@ -13,21 +12,6 @@ const props = {
     role: "presentation",
     tabIndex: 0,
   },
-};
-
-const useScript = (url) => {
-  useEffect(() => {
-    const script = document.createElement("script");
-
-    script.src = url;
-    script.async = true;
-
-    document.body.appendChild(script);
-
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, [url]);
 };
 
 const LandingPage = () => {
