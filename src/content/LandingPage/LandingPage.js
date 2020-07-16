@@ -31,6 +31,7 @@ const useScript = (url) => {
 };
 
 const LandingPage = () => {
+  
   return (
     <div className="bx--grid bx--grid--full-width landing-page">
       <div className="bx--row landing-page__banner">
@@ -63,7 +64,7 @@ const LandingPage = () => {
                     </p>
                     <Button>Learn more</Button>
                   </div>
-                  <div className="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8"><script>${useScript("Watson.js")}</script></div>
+                  <div className="bx--col-md-4 bx--offset-lg-1 bx--col-lg-8"></div>
                 </div>
               </div>
             </Tab>
